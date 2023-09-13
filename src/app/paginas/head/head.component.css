@@ -1,4 +1,28 @@
+@font-face {
+    font-family: le-petit;
+    src: url(./fonts/lepetit.ttf);
+}
+
 .form-control, .btn{
 background-color: rgb(6, 75, 179);
 }
 
+#logo{
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+#logo:hover{
+    transform: rotate(5deg);
+}
+
+.nav-link{
+    font-size: 30px;
+  font-family: le-petit;
+
+}
+
+.nav-link:hover{
+    color: #FF0000; 
+    font-weight: bold;
+    text-decoration: underline;
+}
