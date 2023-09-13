@@ -1,16 +1,10 @@
-h1{
-    color: white;
-    text-align: center;
-    font-family: le-petit;
-    font-size: 60px;
-    text-shadow: 3px 2px 0px rgba(233,84,32,1);
-}
+
 .card{
     background-color: #e95420;
 }
 
 .btn{
-    background-color: rgb(6, 75, 179);
+    background-color: #064bb3;
 }
 
 

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeadComponent } from './paginas/head/head.component';
 import { CuerpoComponent } from './paginas/cuerpo/cuerpo.component';
 import { FooterComponent } from './paginas/footer/footer.component';
+import { GaleriaComponent } from './paginas/galeria/galeria.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { FooterComponent } from './paginas/footer/footer.component';
     AppComponent,
     HeadComponent,
     CuerpoComponent,
-    FooterComponent
+    FooterComponent,
+    GaleriaComponent
   ],
   imports: [
     BrowserModule,
