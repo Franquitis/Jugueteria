@@ -7,24 +7,25 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Inicio
+            <a class="nav-link active" routerLink="inicio">Inicio
               <span class="visually-hidden">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Juguetes</a>
+            <a class="nav-link active" routerLink="galeria">Juguetes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">¿Quienes Somos?</a>
+            <a class="nav-link active" routerLink="acerca">¿Quienes Somos?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#contac">Contacto</a>
+            <a class="nav-link active" routerLink="contacto">Contacto</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-sm-2" type="search" placeholder="Search">
+          <input class="form-control me-sm-2" type="search" placeholder="Buscar">
           <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
         </form>
       </div>
     </div>
   </nav>
+  <ng-content></ng-content>

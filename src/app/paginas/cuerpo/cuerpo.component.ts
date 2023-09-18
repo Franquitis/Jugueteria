@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./cuerpo.component.css']
 })
 export class CuerpoComponent {
- mostrar=true
+ mostrar=false
  producto=[1,2,3,4,5,6,7,8,9,10,11]
 }
 

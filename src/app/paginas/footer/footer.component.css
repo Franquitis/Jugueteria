@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+.jugueteria{
+    margin-bottom: 5px;
+     border-radius: 5%;
+    border: #021532 solid;
+    width: 60%;
+}
+
+li{
+    font-family: 'Lilita One', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+.imagen{
+   display: flex;
+   justify-content: center;
+}
+
+.fondoguter{
+    background-color: #062759 
+;
+}

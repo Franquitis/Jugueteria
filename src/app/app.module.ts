@@ -7,6 +7,8 @@ import { HeadComponent } from './paginas/head/head.component';
 import { CuerpoComponent } from './paginas/cuerpo/cuerpo.component';
 import { FooterComponent } from './paginas/footer/footer.component';
 import { GaleriaComponent } from './paginas/galeria/galeria.component';
+import { AcercaComponent } from './paginas/acerca/acerca.component';
+import { PieComponent } from './paginas/pie/pie.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { GaleriaComponent } from './paginas/galeria/galeria.component';
     HeadComponent,
     CuerpoComponent,
     FooterComponent,
-    GaleriaComponent
+    GaleriaComponent,
+    AcercaComponent,
+    PieComponent
   ],
   imports: [
     BrowserModule,

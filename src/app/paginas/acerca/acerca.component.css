@@ -1,0 +1,22 @@
+.fondoclas {
+  
+    
+    background-color: #042d6a;
+    border-radius: 5% ;
+  
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imagen{
+    border-radius: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+
+p{
+    font-family: 'Lilita One', cursive; 
+    color: white; 
+    font-size: 20px;
+}

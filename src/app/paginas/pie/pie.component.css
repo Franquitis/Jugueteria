@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+.fondopie {
+    background-color: #042d6a;
+    min-height: 100vh
+}
+
+p {
+    color: white;
+}
+
+.titulos {
+    color: white;
+    text-align: center;
+    font-family: le-petit;
+    font-size: 30px;
+    text-shadow: 3px 2px 0px #021532;
+}
+
+.iconos {
+    color: white;
+   
+
+
+}
+
+
+.circulo {
+    width: 70px; /* Ajusta el ancho y alto según tus necesidades */
+  height: 70px;
+  background-color: #e95420; /* Color de fondo del círculo */
+  border-radius: 50%; /* Establece el radio de esquina al 50% para hacerlo circular */
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  cursor: pointer;
+}
+.circulo:hover{
+    transition: 300ms;
+    background-color: #021532;
+}
+hr{
+    background-color: #021532;
+   border: 2px #021532 solid;
+}
+
+p{
+    font-family: 'Lilita One', cursive;
+}
+
+.categorias{
+    cursor: pointer;
+}
+
+.bi-truck{
+    margin-left: 15px;
+  
+}
+
+h4{
+    color: white;
+    text-align: left;
+    font-family: le-petit;
+    font-size: 40px;
+    margin-left:15px ;
+    text-shadow: 3px 4px 0px #010c1c;
+}
