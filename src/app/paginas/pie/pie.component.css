@@ -27,13 +27,13 @@ p {
 
 
 .circulo {
-    width: 70px; /* Ajusta el ancho y alto según tus necesidades */
+    width: 70px; 
   height: 70px;
-  background-color: #e95420; /* Color de fondo del círculo */
-  border-radius: 50%; /* Establece el radio de esquina al 50% para hacerlo circular */
+  background-color: #e95420;
+  border-radius: 50%; 
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  justify-content: center; 
+  align-items: center; 
   cursor: pointer;
 }
 .circulo:hover{
@@ -49,7 +49,9 @@ p{
     font-family: 'Lilita One', cursive;
 }
 
-.categorias{
+.categorias:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s;
     cursor: pointer;
 }
 

@@ -9,6 +9,7 @@ import { FooterComponent } from './paginas/footer/footer.component';
 import { GaleriaComponent } from './paginas/galeria/galeria.component';
 import { AcercaComponent } from './paginas/acerca/acerca.component';
 import { PieComponent } from './paginas/pie/pie.component';
+import { ListaproductosComponent } from './paginas/listaproductos/listaproductos.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { PieComponent } from './paginas/pie/pie.component';
     FooterComponent,
     GaleriaComponent,
     AcercaComponent,
-    PieComponent
+    PieComponent,
+    ListaproductosComponent
   ],
   imports: [
     BrowserModule,

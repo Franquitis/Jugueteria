@@ -1,0 +1,24 @@
+<br>
+<h1>Lista de Productos</h1>
+<div class="fondolista">
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Precio</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pro of producto">
+                <td>{{nombre[pro-1]}}</td>
+                <td>{{descripcion[pro-1]}}</td>
+                <td>{{precio[pro-1]}}</td>
+                <td>{{categoria[pro-1]}}</td>
+            </tr>
+    
+        </tbody>
+    </table>
+</div>
+<br>
