@@ -30,6 +30,12 @@ table {
     margin: 0 auto;
 }
 
-.num{
-    text-align: center;
+
+img{
+    width: 90px;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
 }

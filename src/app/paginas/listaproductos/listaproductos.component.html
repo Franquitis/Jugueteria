@@ -4,7 +4,8 @@
     <table>
         <thead>
             <tr>
-                <th>#</th>
+              
+                <th>Imagen</th>
                 <th>Nombre</th>
                 <th>Descripcion</th>
                 <th>Precio</th>
@@ -13,13 +14,28 @@
         </thead>
         <tbody>
             <tr *ngFor="let pro of producto">
-                <td class="num">{{pro}}</td>
+                <td class="imagenes"><img src="./assets/nene{{pro}}.jpg" alt=""></td>
                 <td>{{nombre[pro-1]}}</td>
                 <td>{{descripcion[pro-1]}}</td>
                 <td>{{precio[pro-1]}}</td>
                 <td>{{categoria[pro-1]}}</td>
             </tr>
-    
+
+            <tr *ngFor="let pro2 of producto2">
+                <td class="imagenes"><img src="./assets/nena{{pro2}}.jpg" alt=""></td>
+                <td>{{nombre2[pro2-1]}}</td>
+                <td>{{descripcion2[pro2-1]}}</td>
+                <td>{{precio2[pro2-1]}}</td>
+                <td>{{categoria2[pro2-1]}}</td>
+            </tr>
+
+            <tr *ngFor="let pro3 of producto3">
+                <td class="imagenes"><img src="./assets/disfraz{{pro3}}.jpg" alt=""></td>
+                <td>{{nombre3[pro3-1]}}</td>
+                <td>{{descripcion3[pro3-1]}}</td>
+                <td>{{precio3[pro3-1]}}</td>
+                <td>{{categoria3[pro3-1]}}</td>
+            </tr>
         </tbody>
     </table>
 </div>

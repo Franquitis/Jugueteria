@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./listaproductos.component.css']
 })
 export class ListaproductosComponent {
-  producto = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27]
+  producto = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
   nombre = [
     "Autos de Carreras Die-Cast Car",
     "Pista de Carrera HotWheels",
@@ -19,23 +19,7 @@ export class ListaproductosComponent {
     "x2 Camiones de Carga",
     "Banco de Herramientas",
     "Set Lego CREATOR",
-    "Set de 24 Dinosaurios",
-    "Muñeca Bebe Nenuco",
-    "Muñeca Niña Nenuco",
-    "Muñeca Mirabel Encanto",
-    "Bicicleta Infantil",
-    "Caja Registradora",
-    "Carrito y Mesita para Bebe",
-    "Guitarra Peppa Pig",
-    "Barbie The Movie",
-    "Disfraz Batman",
-    "Disfraz Capitan América",
-    "Disfraz Flash",
-    "Disfraz Superman",
-    "Disfraz Spiderman",
-    "Disfraz Guerrero",
-    "Disfraz Mujer Maravilla",
-    "Disfraz Princesa"
+    "Set de 24 Dinosaurios"
   ]
 
   descripcion = [
@@ -50,24 +34,9 @@ export class ListaproductosComponent {
     "1 Camion de carga y 1 camion con grua",
     "Banco de trabajo de 1 metro de alto con herramientas",
     "250 piezas para crear una tienda",
-    "Dinosaurios de plastico",
-    "Bebe tamaño real - Incluye mamadera, pañales, etc",
-    "Muñeca de 25cm",
-    "Mide 30cm",
-    "Rodado 24 - Incluye rueditas",
-    "incluye canasto con productos de supermercado",
-    "Tamaño: 1m",
-    "+200 sonidos",
-    "Muñeca 20cm",
-    "De 6 a 10 años",
-    "De 6 a 10 años",
-    "De 6 a 10 años",
-    "De 6 a 10 años",
-    "De 6 a 10 años",
-    "De 6 a 10 años",
-    "De 6 a 10 años",
-    "De 6 a 10 años"
+    "Dinosaurios de plastico"
   ]
+
 
   precio = [
     "$5.200",
@@ -81,23 +50,7 @@ export class ListaproductosComponent {
     "$2.750",
     "$5.900",
     "$7.500",
-    "$3.500",
-    "$6.000",
-    "$5.000",
-    "$8.250",
-    "$23.500",
-    "$7.500",
-    "$10.000",
-    "$3.750",
-    "$5.500",
-    "$5.000",
-    "$5.000",
-    "$5.000",
-    "$5.000",
-    "$5.000",
-    "$3.000",
-    "$4.000",
-    "$6.000"
+    "$3.500"
   ]
 
   categoria = [
@@ -114,6 +67,44 @@ export class ListaproductosComponent {
     "Niño",
     "Niño",
     "Niño",
+  ]
+
+  mostrar2 = false
+  producto2 = [1, 2, 3, 4, 5, 6, 7, 8]
+  nombre2 = [
+    "Muñeca Bebe Nenuco",
+    "Muñeca Niña Nenuco",
+    "Muñeca Mirabel Encanto",
+    "Bicicleta Infantil",
+    "Caja Registradora",
+    "Carrito y Mesita para Bebe",
+    "Guitarra Peppa Pig",
+    "Barbie The Movie"
+  ]
+
+  descripcion2 = [
+    "Bebe tamaño real - Incluye mamadera, pañales, etc",
+    "Muñeca de 25cm",
+    "Mide 30cm",
+    "Rodado 24 - Incluye rueditas",
+    "incluye canasto con productos de supermercado",
+    "Tamaño: 1m",
+    "+200 sonidos",
+    "Muñeca 20cm"
+  ]
+
+  precio2 = [
+    "$6.000",
+    "$5.000",
+    "$8.250",
+    "$23.500",
+    "$7.500",
+    "$10.000",
+    "$3.750",
+    "$5.500"
+  ]
+
+  categoria2 = [
     "Niña",
     "Niña",
     "Niña",
@@ -121,13 +112,56 @@ export class ListaproductosComponent {
     "Niña",
     "Niña",
     "Niña",
-    "Niña",
+    "Niña"
+  ]
+
+
+  mostrar3 = false
+  producto3 = [1, 2, 3, 4, 5, 6, 7, 8]
+  nombre3 = [
+    "Disfraz Batman",
+    "Disfraz Capitan América",
+    "Disfraz Flash",
+    "Disfraz Superman",
+    "Disfraz Spiderman",
+    "Disfraz Guerrero",
+    "Disfraz Mujer Maravilla",
+    "Disfraz Princesa"
+  ]
+
+  precio3 = [
+    "$5.000",
+    "$5.000",
+    "$5.000",
+    "$5.000",
+    "$5.000",
+    "$3.000",
+    "$4.000",
+    "$6.000"
+  ]
+
+  descripcion3 = [
+    "De 6 a 10 años",
+    "De 6 a 10 años",
+    "De 6 a 10 años",
+    "De 6 a 10 años",
+    "De 6 a 10 años",
+    "De 6 a 10 años",
+    "De 6 a 10 años",
+    "De 6 a 10 años"
+
+  ]
+
+
+
+  categoria3 = [
     "Disfraces",
     "Disfraces",
     "Disfraces",
     "Disfraces",
     "Disfraces",
     "Disfraces",
-    "Disfraces"
+    "Disfraces",
+    "Disfraces",
   ]
 }
